@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">selectLocalPicture</string>
+    <string name="send">发送</string>
+    <string name="choose_picture">选择图片</string>
+    <string name="ori_picture">原图</string>
+    <string name="preview">预览</string>
+    <string name="choose">选择</string>
+    <string name="unit_pic_of_folder">张</string>//folder中Pic的数量单位 eg: 5张照片
+    <string name="choose_pic_limit">已经添加%1$s张照片了</string>
+</resources>
