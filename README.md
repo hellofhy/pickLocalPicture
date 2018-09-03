@@ -3,9 +3,9 @@
 调用方法：
 
 在acitivity中设置参数
-private final static int INTENT_FOR_RESULT_CODE = 1;//返回code 固定值（后续页面对应），请勿修改
-private final static String INTENT_RESULT_IMAGE_LIST = "INTENT_RESULT_IMAGE_LIST";//携带数据返回的参数，固定值（后续页面对应），请勿修改
-private final static String INTENT_RESULT_ORI_PICTURE = "INTENT_RESULT_ORI_PICTURE";//携带数据返回的参数，固定值（后续页面对应），请勿修改
+    private final static int INTENT_FOR_RESULT_CODE = 1;//返回code 固定值（后续页面对应），请勿修改
+    private final static String INTENT_RESULT_IMAGE_LIST = "INTENT_RESULT_IMAGE_LIST";//携带数据返回的参数，固定值（后续页面对应），请勿修改
+    private final static String INTENT_RESULT_ORI_PICTURE = "INTENT_RESULT_ORI_PICTURE";//携带数据返回的参数，固定值（后续页面对应），请勿修改
 然后直接调用
     AlbumPreviewActivity.startIntentForResult(this, INTENT_REQUEST_ALBUM_CODE);
 并重写onActivity方法
