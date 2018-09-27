@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.fanhy.picklocalpicture">
+
+    <application >
+        <activity android:name="com.example.fanhy.picklocalpicture.activity.AlbumPreviewActivity"/>
+        <activity android:name="com.example.fanhy.picklocalpicture.activity.ImagePreviewActivity"></activity>
+    </application>
+</manifest>
